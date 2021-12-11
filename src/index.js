@@ -81,7 +81,7 @@ function createManyCards(p1) {
 
 function createOneBigCard(p1) {
     p1.forEach(el => {
-        const values = [...Object.values(el.languages[0])];
+        const values = Object.values(el.languages[0]);
         refs.countryList.insertAdjacentHTML('afterbegin', `
     <li>
         <img src="${el.flags.svg}" alt='' width=60px height=40px>
