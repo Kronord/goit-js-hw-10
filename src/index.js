@@ -54,9 +54,8 @@ function createStyleForOneCard(p1, p2) {
     p1.forEach(li => {
         li.parentNode.style.paddingLeft = 0;
         li.style.display = 'flex';
-        li.style.width = '500px';
+        li.style.width = '800px';
         li.style.alignItems = 'center';
-        li.lastElementChild.style.lineHeight = '20px';
         li.lastElementChild.style.marginLeft = '10px';
         li.lastElementChild.style.fontWeight = 'bold';
         li.lastElementChild.style.fontSize = '40px';
